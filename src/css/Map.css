@@ -1,0 +1,25 @@
+.wrapper {
+    position: relative;
+}
+
+.ol-map {
+    min-width: 400px;
+    min-height: 500px;
+    height : 100vh;
+}
+
+.ol-map:active {
+    cursor: grabbing;
+}
+
+.ol-control {
+    position : absolute;
+    background-color: rgba(255, 253, 253, 0.715);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.ol-full-screen {
+    bottom: .5em;
+    right: .5em;
+}

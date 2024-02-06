@@ -1,20 +1,16 @@
-.wrapper {
-    position: relative;
-}
-
 .left-pane {
     width: 500px;
     margin: auto;
     position: absolute;
     top: 1em;
     left: 1em;
-    z-index: 3;
     padding: 8px;
     background-color: white;    
     border-radius: 6px;
     border: 1px solid black;
     box-shadow: 1px 2px 5px 4px rgba(0, 0, 0, 0.252);
     transition: all ease-in-out 0.3s;
+    z-index: 2;
 }
 
 .details-pane {
@@ -31,6 +27,7 @@
     min-height: 10px;
     box-shadow: 1px 2px 5px 4px rgba(0, 0, 0, 0.252);
     transition: all ease-in-out 0.3s;
+    z-index: 2;
 }
 
 .input-sec {
@@ -63,26 +60,4 @@
 
 .ac-list li:hover{
     background-color: lightgrey;
-}
-
-.ol-map {
-    min-width: 400px;
-    min-height: 500px;
-    height : 100vh;
-}
-
-.ol-map:active {
-    cursor: grabbing;
-}
-
-.ol-control {
-    position : absolute;
-    background-color: rgba(255, 253, 253, 0.715);
-    border-radius: 4px;
-    padding: 2px;
-}
-
-.ol-full-screen {
-    bottom: .5em;
-    right: .5em;
 }

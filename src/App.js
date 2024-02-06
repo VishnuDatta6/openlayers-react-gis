@@ -26,6 +26,7 @@ function App() {
             }),
           })}
           style={FeatureStyle.Polygon}
+          zIndex={1}
           />
         </Layers>
         <Controls>
